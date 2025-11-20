@@ -1,0 +1,126 @@
+div {
+    width: fit-content;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    background-color: antiquewhite;
+    color: #582f0e;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #582f0e;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgba(240, 248, 255, 0.215);
+    text-align: center;
+}
+
+.column {
+    background-color: antiquewhite;
+    color: #582f0e;
+}
+
+body {
+    background-image: url(./images/africanforeststockimage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.lion-image {
+    background-image: url(./images/square-lion.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #582f0e;
+    text-shadow: 2px 2px 4px antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+.cheetah-image {
+    background-image: url(./images/cheetah-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #582f0e;
+    text-shadow: 2px 2px 4px antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+.tiger-image {
+    background-image: url(./images/siberian-tiger-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #582f0e;
+    text-shadow: 2px 2px 4px antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+.caracal-image {
+    background-image: url(./images/caracal-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #582f0e;
+    text-shadow: 2px 2px 4px antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+.blackfootedcat-image {
+    background-image: url(./images/blackfootedcat-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #582f0e;
+    width: 100px;
+    height: 100px;
+}
+
+.leopard-image {
+    background-image: url(./images/black-leopard-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #582f0e;
+    width: 100px;
+    height: 100px;
+}
+
+.jaguar-image {
+    background-image: url(./images/black-jaguar-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #582f0e;
+    width: 100px;
+    height: 100px;
+}
+
+.cougar-image {
+    background-image: url(./images/black-cougar-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #582f0e;
+    width: 100px;
+    height: 100px;
+}
+
+.lynx-image {
+    background-image: url(./images/canadianlynx-square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #582f0e;
+    ;
+    width: 100px;
+    height: 100px;
+}

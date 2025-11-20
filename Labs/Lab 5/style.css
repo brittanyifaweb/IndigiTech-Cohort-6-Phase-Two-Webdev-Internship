@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/*  padding: top right bottom left
+    padding:(top&bottom) (left&right)
+ */
+
+
+html {
+    background-color: #e2cfea;
+    /* this is just so that the body part of the webpage had a consistent colour whereas, the background colour of the webpage itself was consistent behind the body and the header banner image */
+}
+
+
+
+/* I wanted the main and footer to be more consistent with similar widths, background colours, and text alignments so that overall, these areas of the webpage looked uniform and flowed nicely. Another reason why I chose a different background colour than the html one because I wanted to see where the text was aligned so that I can align the headers and paragraphs to the areas of the page that I wanted them to be in. Then I liked having the two different purple colours on the website itself anyway*/
+main {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    background-color: #c19ee0;
+    padding: 10px 0 10px 0;
+    width: 80%;
+
+}
+
+
+body {
+    width: 100%;
+
+}
+
+/* I wanted both the h1 and nav bars to be closer in line-height together so I had adjusted the line-height and the h1 padding-top so that both are positioned in the center of the header banner background image yet as close as I wanted them to be line-height-wise */
+header {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px grey;
+    margin: auto;
+    background-image: url(./images/purplestarsbanner.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    line-height: 10px;
+    min-width: 1000px;
+}
+
+h1 {
+    padding-top: 75px;
+    font-size: 60px;
+}
+
+ul {
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+/* main */
+h2 {
+    background-color: #d9c7f2;
+    border: 4px solid lavender;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px 28px 10px 5px;
+}
+
+.welcome {
+    font-size: 30px;
+    color: #3d0066;
+}
+
+.intro {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+p {
+    width: 80%;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.p-2 {
+    font-size: larger;
+    line-height: 40px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+article {
+    padding: 30px 0;
+    color: #3d0066;
+}
+
+
+/* Book recommendation section */
+h3 {
+    color: #510087;
+    text-align: center;
+    font-size: 250%;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.books-month {
+    background-color: #d9c7f2;
+    padding: 20px 0;
+    border: 4px solid lavender;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    min-width: 800px;
+}
+
+img {
+    width: 200px;
+    border: 10px dotted whitesmoke;
+}
+
+table {
+    margin: auto;
+}
+
+th,
+td {
+    width: 250px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+/* Events and Workshops area */
+.events {
+    background-color: #d9c7f2;
+    border: 4px solid lavender;
+    border-radius: 10px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-left: 40px;
+}
+
+h4 {
+    font-size: 320%;
+}
+
+.events-p {
+    text-align: center;
+    font-size: 300%;
+    margin: auto;
+    padding-bottom: 70px;
+    font-style: italic;
+    font-weight: 300;
+    color: #a478d4;
+}
+
+/* footer */
+
+footer {
+    color: antiquewhite;
+    width: 80%;
+    margin: auto;
+    background-color: #c19ee0;
+    padding: 10px 0 10px 0;
+}
+
+.footer-p {
+    text-align: right;
+    font-size: 200%;
+}

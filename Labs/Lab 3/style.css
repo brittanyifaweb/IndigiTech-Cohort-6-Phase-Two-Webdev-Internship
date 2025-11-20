@@ -1,0 +1,60 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid burlywood;
+    width: fit-content;
+    text-align: center;
+    color: #573e41;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th {
+    background-color: #bc8a5f;
+    color: #ffedd8;
+}
+
+td {
+    background-color: cornsilk;
+}
+
+.city {
+    background-color: #e6ccb2;
+    color: #573e41;
+}
+
+.footer {
+    background-color: #bc8a5f;
+    color: #ffedd8;
+    height: 40px;
+}
+
+img {
+    width: 100px;
+}
+
+body {
+    background-image: url(./images/103880-brown-stripes-pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: auto;
+    width: fit-content;
+    padding-top: 40px;
+}
+
+div {
+    text-align: center;
+    color: #ffedd8;
+    background-color: #bc8a5f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    font-size: 45px;
+    text-shadow: #5f4228 1px 1px 2px, #bc8a5f 0 0 1em, #bc8a5f 0 0 0.2em;
+    border: 5px solid burlywood;
+    width: fit-content;
+    margin: auto;
+    padding: 2px 10px 6px 10px;
+}
